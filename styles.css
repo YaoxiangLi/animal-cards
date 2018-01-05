@@ -1,0 +1,52 @@
+/* add your CSS here */
+#main-card{
+    width: 300px;
+    /*Uses border around animal’s name, image, and information (interesting fact, list items, and description).*/
+    border: 1px solid #e6e5e2;
+    box-shadow: 1px 2px 4px 1px #e6e5e2;
+    padding: 12px;
+}
+.animal-name{
+    font-weight: bold;
+    font-size: 20px
+}
+#main-card .picture{
+    /*Uses spacing between animal’s name, image, and information.*/
+    margin-top: 10px;
+    width:300px;
+    text-align: center;
+}
+
+#info{
+    /*Uses spacing between animal’s name, image, and information.*/
+    margin-top: 10px;
+    /*Uses border around animal’s information.*/
+    border: 1px solid #e6e5e2;
+    padding: 12px;
+}
+
+#info ul{
+    margin: 0px; /* To remove default bottom margin */
+    padding: 0px; /* To remove default left padding */
+}
+#info li{
+    /*The dots are removed from the animal's list items.*/
+    list-style-type: none;
+}
+#info .info-interesting-fact{
+    font-size: 12px;
+    /*The text is italicized for the animal’s interesting fact.*/
+    font-style: italic;
+}
+#info .info-list{
+    font-size: 12px;
+}
+#info .info-list-labels{
+    /*The labels are bolded for the animal’s list items.*/
+    font-weight: bold;
+    font-size: 12px;
+    font-style: normal;
+}
+#info .info-text{
+    font-size: 12px;
+}
