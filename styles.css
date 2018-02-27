@@ -14,7 +14,6 @@
     /*Uses spacing between animal’s name, image, and information.*/
     margin-top: 10px;
     width:300px;
-    text-align: center;
 }
 
 #info{
@@ -26,8 +25,8 @@
 }
 
 #info ul{
-    margin: 0px; /* To remove default bottom margin */
-    padding: 0px; /* To remove default left padding */
+    margin: 0; /* To remove default bottom margin */
+    padding: 0; /* To remove default left padding */
 }
 #info li{
     /*The dots are removed from the animal's list items.*/
